@@ -1,0 +1,36 @@
+/* MODAL */
+
+.modal {
+  display: none;
+  margin-bottom: 12px;
+}
+
+.modalContainer {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.05);
+  transition: .3s linear, color 0s, background-color 0s;
+  box-shadow: rgba(71, 48, 63, 0.4) -5px 5px, rgba(89, 80, 85, 0.3) -10px 10px, rgba(110, 74, 97, 0.2) -15px 15px, rgba(113, 92, 106, 0.1) -20px 20px, rgba(74, 68, 71, 0.05) -25px 25px;
+  display: flex;
+  color: #000;
+  border-radius: 15px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalMessage {
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+.close {
+  margin-left: 15px;
+  font-size: 30px;
+}

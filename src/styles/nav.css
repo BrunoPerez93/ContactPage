@@ -1,0 +1,144 @@
+/* NAV */
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 16px;
+}
+
+.nav-links {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li {
+  padding: 0 10px;
+}
+
+li:hover {
+  color: #fcb900;
+  text-decoration: underline;
+}
+
+.liContainer {
+  display: flex;
+  align-items: center;
+}
+
+.sublist li {
+  color: #000000;
+}
+
+.sublist li:hover {
+  color: #fcb900;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.logoNav {
+  width: 70%;
+}
+
+.sublist {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  padding: 5px;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.9), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.liContainer {
+  position: relative;
+}
+
+.liContainer:hover .sublist {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .burger-menu {
+    display: block;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    z-index: 1000;
+  }
+
+  ul {
+    flex-direction: row;
+  }
+
+  ul li {
+    margin: 5px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: auto;
+    color: #000000;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoNav {
+    width: 100px;
+  }
+
+  .checkboxContainer {
+    flex-direction: column;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftDivFooter {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightDivFooter {
+    justify-content: center;
+  }
+
+  .divContainerSocial {
+    margin-top: 10px;
+  }
+
+  .blackDivInfo {
+    flex: 1;
+  }
+
+  .divBlackMap {
+    flex-direction: column;
+  }
+
+
+}

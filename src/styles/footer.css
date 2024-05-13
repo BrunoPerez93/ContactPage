@@ -1,0 +1,94 @@
+/* FOOTER */
+
+.footerContainer {
+  background-color: #000000;
+  height: 100%;
+  padding: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.leftDivFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 20px;
+}
+
+.leftDivFooter h3 {
+  font-weight: 600;
+  font-size: 28px;
+  margin-left: 17px;
+}
+
+.leftDivInfo {
+  display: flex;
+  padding: 5px;
+  margin: 12px;
+}
+
+.divLogoFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logoFooter {
+  background-color: #ffffff;
+  height: 60%;
+}
+
+.rightDivFooter {
+  display: flex;
+  padding: 20px;
+}
+
+.divCompany {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.footerContainer h3 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.rightDivFooter a {
+  margin-top: 12px;
+}
+
+.divLegal {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.divLegalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.divContainerSocial {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  height: 100%;
+}
+
+.socialImg {
+  margin-right: 5px;
+}
+
+.rightDivFooter a:hover{
+  color: #fcb900;
+}
+
+.leftDivInfo img{
+  padding-right: 8px;
+}

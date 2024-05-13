@@ -1,0 +1,71 @@
+
+/* FORM */
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 16px;
+  flex: 1;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.divInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.divLabels {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.divMessage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 12px;
+  text-align: center;
+}
+
+.messageLabel {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14x;
+  font-weight: 500;
+  color: #111827;
+}
+
+.textarea {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid #E0E0E0;
+  border-radius: 16px;
+}
+
+.divCheckboxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.titleCheckbox {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.checkboxContainer {
+  display: flex;
+}
+
+.checkbox {
+  padding: 10px 20px 5px 20px;
+}

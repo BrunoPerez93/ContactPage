@@ -1,0 +1,95 @@
+/* INFORMATION */
+
+.sectionContainer {
+  background-color: #E0E0E0;
+
+  background-image: url('../Assets/sl1-1.jpg');
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px 0px 100px ;
+}
+
+.titleContainer {
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0px 20px;
+}
+
+.titleContainer h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.titleContainer p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.informationContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 80%;
+  padding: 20px;
+  border-radius: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.blackDivInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.9), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  width: calc(50% - 10px);
+  margin-right: 10px;
+  flex: 1;
+}
+
+.blackDivInfo h2 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.blackDivInfo h3 {
+  font-size: 16px;
+}
+
+.divContactInfo {
+  font-size: 16px;
+  margin: 12px;
+  padding: 20px 0px 20px;
+}
+
+.contactInfo {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.contactInfo img {
+  padding-right: 8px;
+}
+
+.divBlackMap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.divMap{
+  margin: 20px;
+}

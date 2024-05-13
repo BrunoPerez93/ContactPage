@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="./Assets/deinsa_logo-16px.png">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/nav.css">
+  <link rel="stylesheet" href="./styles/information.css">
+  <link rel="stylesheet" href="./styles/form.css">
+  <link rel="stylesheet" href="./styles/modal.css">
+  <link rel="stylesheet" href="./styles/button.css">
+  <link rel="stylesheet" href="./styles/input.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+
+  <title>Prueba</title>
+</head>
+
+<body>
+  <main>
+    <header>
+
+      <!-- NAV -->
+
+      <button type="button" class="burger-menu" onclick="toggleMenu()">
+        <img src="./Assets/menu-icon.png" alt="Menu">
+      </button>
+
+      <nav class="navContainer">
+        <div>
+          <img class="logoNav" src="./Assets/deinsa_logo-1.png" alt="Logo de la empresa" />
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li class="liContainer">
+              <a href="#">Productos</a>
+              <img src="./Assets/flecha-hacia-abajo.png" alt="flecha hacia abajo" />
+              <ul class="sublist">
+                <li>Opcion 1</li>
+                <li>Opcion 2</li>
+                <li>Opcion 3</li>
+                <li>Opcion 4</li>
+              </ul>
+            </li>
+            <li class="liContainer">
+              <a href="#">Empresa</a>
+              <img src="./Assets/flecha-hacia-abajo.png" alt="flecha hacia abajo" />
+              <ul class="sublist">
+                <li>Opcion 1</li>
+                <li>Opcion 2</li>
+                <li>Opcion 3</li>
+                <li>Opcion 4</li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Servicios</a>
+            </li>
+            <li>
+              <a href="#">Videos</a>
+            </li>
+            <li>
+              <a href="#">Educacion Continua</a>
+            </li>
+            <li>
+              <a href="#">Transformacion Digital</a>
+            </li>
+            <li>
+              <a href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- INFORMATION -->
+
+    <section class="sectionContainer">
+      <div class="titleContainer">
+        <h1>Contacto</h1>
+        <p>Cualquier pregunta o consulta? Solo escribanos un mensaje!</p>
+      </div>
+
+      <div class="informationContainer">
+        <div class="blackDivInfo">
+          <h2>Informacion de contacto</h2>
+          <h3>Expertise Delivery Center LATAM</h3>
+
+          <div class="divBlackMap">
+
+            <div class="divContactInfo">
+
+              <div class="contactInfo">
+                <img src="./Assets/phone.svg" alt="icono de telefono" />
+                <p>(506) 2276-3380</p>
+              </div>
+              <div class="contactInfo">
+                <img src="./Assets/email.svg" alt="icono de email" />
+                <p>info@deinsaglobal.com</p>
+              </div>
+              <div class="contactInfo">
+                <img src="./Assets/fax.svg" alt="icono de email" />
+                <p>(506) 2276-3778</p>
+              </div>
+              <div class="contactInfo">
+                <img src="./Assets/location.svg" alt="icono de telefono" />
+                <p>San Antonio de Desamparados, 200 metros sur
+                  y 200 metros oeste de la Escuela República de
+                  Panamá. Costa Rica.</p>
+              </div>
+            </div>
+
+            <div class="divMap">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d982.6144972726279!2d-84.049618!3d9.89576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e38f49e04dbd%3A0x3c6c42af025b9e1!2sDesarrollos%20Inform%C3%A1ticos%20Deinsa%20Sociedad%20An%C3%B3nima!5e0!3m2!1ses-419!2scr!4v1715285111089!5m2!1ses-419!2scr"
+                width="100%" height="100%" allowfullscreen="true" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORM -->
+
+        <div class="formContainer ">
+          <form id="myForm" action="#" method="post">
+            <div class="divInput">
+              <div class="divLabels">
+                <label class="inp" for="name">
+                  <input type="text" id="name" name="name" required placeholder="&nbsp;" />
+                  <span class="label">Nombre</span>
+                  <span class="focus-bg"></span>
+                </label>
+              </div>
+              <div class="divLabels">
+                <label class="inp" for="lastname">
+                  <input type="text" id="lastname" name="lastname" required placeholder="&nbsp;" />
+                  <span class="label">Apellido</span>
+                  <span class="focus-bg"></span>
+                </label>
+              </div>
+            </div>
+            <div class="divInput">
+              <div class="divLabels">
+                <label class="inp" for="email">
+                  <input type="email" id="email" name="email" required placeholder="&nbsp;" />
+                  <span class="label">Email</span>
+                  <span class="focus-bg"></span>
+                </label>
+              </div>
+              <div class="divLabels">
+                <label class="inp" for="phone_number">
+                  <input type="phone" id="phone_number" name="phone_number" required placeholder="&nbsp;" />
+                  <span class="label">Telefono</span>
+                  <span class="focus-bg"></span>
+                </label>
+              </div>
+            </div>
+            <div class="divInput">
+              <div class="divMessage">
+                <label class="messageLabel" for="message">Mensaje</label>
+                <textarea rows="4" class="textarea" id="message" name="message" required
+                  placeholder="Escribe un mensaje"></textarea>
+              </div>
+            </div>
+
+            <div class="divCheckboxContainer">
+              <div class="titleCheckbox">
+                <h3>Seleccione la categoria</h3>
+              </div>
+              <div class="checkboxContainer">
+                <div class="checkbox">
+                  <input type="checkbox" id="products" name="products">
+                  <label for="products">Productos</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" id="services" name="services">
+                  <label for="services">Servicios</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" id="education" name="education">
+                  <label for="education">Educación</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" id="another" name="another">
+                  <label for="another">Otro</label>
+                </div>
+
+              </div>
+
+
+              <div class="modalContainer">
+                <div id="successModal" class="modal">
+                  <div class="modal-content">
+                    <p class="modalMessage">El Mensaje Fue Enviado Con Exito.</p>
+                    <p class="close">&times;</p>
+                  </div>
+                </div>
+                <button type="submit" class="button">
+                  Enviar Mensaje
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footerContainer">
+      <div class="leftDivFooter">
+        <h3>Contactenos</h3>
+        <div class="leftDivInfo">
+          <img src="./Assets/phone.svg" alt="icono de telefono" />
+          <p>(506) 2276-3380</p>
+        </div>
+        <div class="leftDivInfo">
+          <img src="./Assets/email.svg" alt="icono de email" />
+          <p>info@deinsaglobal.com</p>
+        </div>
+        <div class="leftDivInfo">
+          <img src="./Assets/fax.svg" alt="icono de email" />
+          <p>(506) 2276-3778</p>
+        </div>
+        <div class="leftDivInfo">
+          <img src="./Assets/location.svg" alt="icono de telefono" />
+          <p>Sales Head Office +507 6306-2254 Ciudad de Panamá, Panamá.</p>
+        </div>
+        <div class="leftDivInfo">
+          <img src="./Assets/location.svg" alt="icono de telefono" />
+          <p>Headquarters: +1 786-871-1192 Miami, FL. USA</p>
+        </div>
+      </div>
+
+      <div class="divLogoFooter">
+        <img class="logoFooter" src="./Assets/deinsa_logo-1.png" alt="logo de la empresa" />
+      </div>
+
+      <div class="rightDivFooter">
+        <div class="divCompany">
+          <h3>Compañia</h3>
+          <a href="#">Nosotros</a>
+          <a href="#">Blogs</a>
+        </div>
+        <div class="divLegal">
+          <div class="divLegalContent">
+            <h3>Legal</h3>
+            <a href="#">Politicas de Privacidad</a>
+            <a href="#">Servicios</a>
+            <a href="#">Terminos de Nosotros</a>
+          </div>
+          <div class="divContainerSocial">
+            <a href="https://www.facebook.com/deinsaglobal/" target="_blank">
+              <img class="socialImg" src="./Assets/facebook (1).png" alt="logo de facebook" />
+            </a>
+            <a href="https://www.linkedin.com/company/deinsa/" target="_blank">
+              <img class="socialImg" src="./Assets/linkedin.png" alt="logo de linkedin" />
+            </a>
+            <a href="https://www.youtube.com/user/CanalDeinsa" target="_blank">
+              <img class="socialImg" src="./Assets/youtube.png" alt="logo de youtube" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+  </main>
+
+
+  <script src="./contact.js"></script>
+</body>
+
+</html>
